@@ -1,4 +1,43 @@
 
+#home {
+  grid-area: home;
+  margin: 10px 10px 10px 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+  margin: 5px;
+  border-bottom: 4px solid #91CCCD;
+  color: #91CCCD !important;
+}
+
+.navbar-brand {
+  background-color: #91CCCD;
+    color: black !important;
+    padding: 2.5px 10px 2.5px 50px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #30333C !important;
+}
+
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  object-fit:fill;
+  height: 250px;
+}
+
+.hero-banner div h2 {
+  background-color: #91CCCD;
+  color: black;
+  padding: 5px 10px;
+  font-size: 28px;
+  margin: 15px;
+  position: a;
+  float: right;
+}
 
 
 #topRowWork{
