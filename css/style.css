@@ -1,0 +1,34 @@
+
+
+
+#topRowWork{
+    position: relative;
+    grid-area: topRow;
+    background-image: url("../images/post-refactor.png");
+    
+  }
+  
+  #centerRowLeftWork{
+    position: relative;
+    grid-area: centerRowLeft;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #centerRowRightWork{
+    position: relative;
+    grid-area: centerRowRight;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #bottomRowLeftWork{
+    position: relative;
+    grid-area: bottomRowLeft;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  
+  
+  #bottomRowRightWork{
+    position: relative;
+    grid-area: bottomRowRight;
+    background-image: url("../images/02-run-buddy.jpg");
+  }
