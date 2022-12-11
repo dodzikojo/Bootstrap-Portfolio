@@ -18,6 +18,7 @@ a {
     padding: 2.5px 10px 2.5px 50px;
 }
 
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   background-color: #30333C !important;
 }
@@ -29,6 +30,26 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   height: 250px;
 }
 
+.title {
+  color: #4d607d;
+  font-size: 30px;
+  grid-area: title;
+  word-wrap: break-word;
+  text-align: right;
+  justify-content: right;
+  padding: 7px;
+  border-right: 4px solid #4d607d;
+}
+
+#profile-image {
+  object-fit: contain;
+  display: inline;
+  width: 150px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+
 .hero-banner div h2 {
   background-color: #91CCCD;
   color: black;
@@ -39,35 +60,55 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   float: right;
 }
 
+.workGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  border: 5px solid #91CCCD;
+  margin-bottom: 10px;
+}
+
+.featured-card-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+#workItems {
+  margin: 10px;
+}
 
 #topRowWork{
     position: relative;
-    grid-area: topRow;
     background-image: url("../images/post-refactor.png");
+    height: 300px;
     
   }
   
   #centerRowLeftWork{
     position: relative;
-    grid-area: centerRowLeft;
     background-image: url("../images/02-portfolio-2.jpg");
+    height: 120px;
+    margin-right: 5px;
   }
   
   #centerRowRightWork{
     position: relative;
-    grid-area: centerRowRight;
     background-image: url("../images/02-portfolio-3.jpg");
+    height: 120px;
   }
   
   #bottomRowLeftWork{
     position: relative;
-    grid-area: bottomRowLeft;
     background-image: url("../images/02-portfolio-4.jpg");
+    height: 120px;
   }
   
   
   #bottomRowRightWork{
     position: relative;
-    grid-area: bottomRowRight;
     background-image: url("../images/02-run-buddy.jpg");
+    height: 120px;
   }

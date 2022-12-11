@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodzi Agbenorku // Web Developer Portfolio</title>
 
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -30,23 +31,17 @@
             </div>
           </nav>
     </header>
-    <!-- <section class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">My Portfolio</h1>
-        </div>
-    </section> -->
-
     <section class="hero-banner p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid">
         <h2 class="display-5 fw-bold">My Portfolio</h2>
       </div>
     </section>
     <main class="page-wrapper container">
-        <section id="page-wrapper-grid">
+       
           <!-- about me -->
-        <section class="page-section" id="aboutHeading">
-          <h2 class="title">About Me</h2>
-          <div class="detail" id="aboutDetail">
+        <section class="page-section row" id="aboutHeading">
+          <h2 class="title col-xs-12 col-sm-4 col-md-2">About Me</h2>
+          <div class="detail col-xs-12 col-sm-8 col-md-10" id="aboutDetail">
             <img id="profile-image" src="./images/profile-image.jpg">
             <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br>
@@ -56,57 +51,88 @@
        
     
         <!-- portfolio container -->
-        <section class="page-section" >
-          <h2 class="title">Work</h2>
-          <div class="detail" id="workDetail">
-            <div id="topRowWork" class="workGridArea">
-              <a class="link" target="_blank" href="https://github.com/dodzikojo/marketing-agency-website-code-refactor"></a>
-              <div  class="heading">
-               
-                  <a target="_blank" href="https://github.com/dodzikojo/marketing-agency-website-code-refactor" class="projectLink">Horiseon Marketing Agency</a>
-                  <p class="additionalInfo">Website Refactor</p>
-               
-                
+        <section class="page-section row" >
+          <h2 class="title col-xs-12 col-sm-4 col-md-2">Work</h2>
+          <div class="detail col-xs-12 col-sm-8 col-md-10" id="">
+           
+              <!-- <div class="row">
+                <div id="topRowWork" class="workGridArea col-12">
+                  <a class="link" target="_blank" href="https://github.com/dodzikojo/marketing-agency-website-code-refactor"></a>
+                  <div  class="heading">
+                   
+                      <a target="_blank" href="https://github.com/dodzikojo/marketing-agency-website-code-refactor" class="projectLink">Horiseon Marketing Agency</a>
+                      <p class="additionalInfo">Website Refactor</p>
+                   
+                    
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="card mb-3">
+                <img src="/images/post-refactor.png" class="card-img-top featured-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
               </div>
-            </div>
-            <div id="centerRowLeftWork" class="workGridArea">
-              <a class="link" target="_blank" href="https://github.com/dodzikojo/prework-study-guide"></a>
-              <div class="heading">
-                <a target="_blank" href="https://github.com/dodzikojo/prework-study-guide" class="projectLink">Study Guide</a>
-                <p class="additionalInfo">Basic HTML Structure</p>
-              </div>
-            </div>
-            <div id="centerRowRightWork" class="workGridArea">
-              <a class="link" target="_blank" href="#"></a>
-              <div class="heading">
+
+            
+             
+              <div class="">
+                <div class="card-group">
+                 
+                  <div class="card  m-2  col-sm-12 col-md-6 col-lg-6">
+                    <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card  m-2  col-sm-12 col-md-6 col-lg-6">
+                    <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
               
-                  <a target="_blank" href="#" class="projectLink">Calculator</a>
-                  <p class="additionalInfo">Lorem ipsum dolor</p>
-                
               </div>
-            </div>
-            <div id="bottomRowLeftWork" class="workGridArea">
-              <a class="link" target="_blank" href="#"></a>
-              <div class="heading">
-                <a target="_blank" href="#" class="projectLink">Pastel Puzzels</a>
-                <p class="additionalInfo">Lorem ipsum dolor</p>
+
+              <div class="">
+                <div class="card-group">
+                 
+                  <div class="card  m-2  col-sm-12 col-md-12 col-lg-6">
+                    <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card  m-2  col-sm-12 col-md-126 col-lg-6">
+                    <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              
               </div>
-            </div>
-            <div id="bottomRowRightWork" class="workGridArea">
-              <a class="link" target="_blank" href="#"></a>
-              <div class="heading">
-                <a target="_blank" href="#" class="projectLink">Run Buddy</a>
-                <p class="additionalInfo">Lorem ipsum dolor</p>
-              </div>
-            </div>
+              
           </div>
           
         </section>
     
         <!-- contact -->
-        <section class="page-section contact" id="contact">
-          <h2 class="title">Contact Me</h2>
-          <div class="detail" id="contactDetail">
+        <section class="page-section contact row" id="contact">
+          <h2 class="title col-xs-12 col-sm-4 col-md-2">Contact Me</h2>
+          <div class="detail col-xs-12 col-sm-8 col-md-10" id="contactDetail">
             <h5 id="phoneNumber"><a href="#">555.555.555</a></h5>
             <h5 id="emailAddress"><a href="mailto:dodzi@windowslive.com">dodzi@windowslive.com</a></h5>
             <h5 id="github"><a target="_blank" href="https://github.com/dodzikojo">GitHub</a></h5>
@@ -115,9 +141,6 @@
           </div>
         </section>
     
-        </section>
-        </div>
-        
       </main>
     
 </body>
