@@ -1,7 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95% !important;
+    }
+
+    .title {
+        color: #4d607d;
+        word-wrap: break-word;
+        text-align: center;
+        justify-content: center;
+        padding: 7px;
+        border-bottom: 4px solid #4d607d;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 95% !important;
+        }
+
+        /* .title {
+        text-align: right;
+        justify-content: right;
+        border-bottom: 4px solid #4d607d;
+      } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+            width: 70% !important;
+        }
+
+        .title {
+            text-align: right;
+            justify-content: right;
+            border-right: 4px solid #4d607d;
+          }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+            width: 70% !important;
+        }
+
+        .title {
+            text-align: right;
+            justify-content: right;
+            border-right: 4px solid #4d607d;
+          }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .title {
+        text-align: right;
+        justify-content: right;
+        border-right: 4px solid #4d607d;
+      }
+}
 
 #home {
   grid-area: home;
   margin: 10px 10px 10px 0px;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+}
+
+a.navbar-brand {
+    margin-left: 0px !important;
 }
 
 a {
@@ -25,8 +98,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 
 .hero-banner {
-  background-image: url("../images/02-hero-bg.jpg");
-  object-fit:fill;
+  background-image: url("../images/abstract.jpg");
+  object-fit:cover;
   height: 250px;
 }
 
@@ -38,15 +111,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   text-align: right;
   justify-content: right;
   padding: 7px;
-  border-right: 4px solid #4d607d;
 }
 
 #profile-image {
   object-fit: contain;
   display: inline;
+  /* position: relative; */
   width: 150px;
   float: left;
-  margin: 0px 10px 0px 0px;
 }
 
 
@@ -80,35 +152,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   margin: 10px;
 }
 
-#topRowWork{
-    position: relative;
-    background-image: url("../images/post-refactor.png");
-    height: 300px;
-    
-  }
-  
-  #centerRowLeftWork{
-    position: relative;
-    background-image: url("../images/02-portfolio-2.jpg");
-    height: 120px;
-    margin-right: 5px;
-  }
-  
-  #centerRowRightWork{
-    position: relative;
-    background-image: url("../images/02-portfolio-3.jpg");
-    height: 120px;
-  }
-  
-  #bottomRowLeftWork{
-    position: relative;
-    background-image: url("../images/02-portfolio-4.jpg");
-    height: 120px;
-  }
-  
-  
-  #bottomRowRightWork{
-    position: relative;
-    background-image: url("../images/02-run-buddy.jpg");
-    height: 120px;
-  }
+.work-img {
+    height: 200px;
+    object-fit: cover;
+}
