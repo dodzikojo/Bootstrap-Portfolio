@@ -77,12 +77,14 @@ a.navbar-brand {
     margin-left: 0px !important;
 }
 
-a {
+.navbar-nav a {
   text-decoration: none;
   padding: 2px 10px 2px 10px;
   margin: 5px;
-  border-bottom: 4px solid #91CCCD;
-  color: #91CCCD !important;
+  border-bottom: 4px solid #4d607d;
+  background-color: #91CCCD;
+  font-weight: 400;
+  color: #4d607d !important;
 }
 
 .navbar-brand {
@@ -93,7 +95,7 @@ a {
 
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  background-color: #30333C !important;
+  background-color: #dfe3ef !important;
 }
 
 
@@ -115,21 +117,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 #profile-image {
   object-fit: contain;
-  display: inline;
+  /* display: inline; */
   /* position: relative; */
   width: 150px;
-  float: left;
+  /* float: left; */
 }
 
 
-.hero-banner div h2 {
+#headerLabel {
   background-color: #91CCCD;
   color: black;
-  padding: 5px 10px;
-  font-size: 28px;
-  margin: 15px;
-  position: a;
-  float: right;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  /* margin: 15px; */
+  /* position: absolute;
+  float: right; */
 }
 
 .workGridArea {
@@ -155,4 +157,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .work-img {
     height: 200px;
     object-fit: cover;
+}
+
+.contact-info {
+  text-decoration: none;
+  color: #4d607d !important;
 }
